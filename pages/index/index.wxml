@@ -1,0 +1,27 @@
+<view class="header">
+  <view class="contauner hdCon">
+    <!-- <view class="logo logoCon"> -->
+      <image class="logo-img"  src="/images/lego.png"></image>
+    <!-- </view> -->
+    <!-- <view class="zhuafa zhuafaCon"> -->
+      <!-- <button class="imagebtn" size="mini" open-type="share"> -->
+        <image class="share-img"  src="/images/share.png"></image>
+      <!-- </button> -->
+    <!-- </view> -->
+  </view>
+</view>
+
+<view class="contain">
+  <view class="assessText" disabled="disabled" >
+    <text readonly="readonly" class="mytext">{{evaContent}}</text>
+  </view>
+  <view class="btnContain">
+    <button class="btn" bindtap="copyAssess" size="mini">
+      点我复制
+    </button>
+    <button class="btn" bindtap="nextAssess" size="mini">
+      再来一条
+    </button>
+  </view>
+
+</view>

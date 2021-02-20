@@ -1,0 +1,97 @@
+page{
+  height: 100%;
+  background: #f0f0f0;
+}
+.header {
+  box-sizing: border-box;
+  width: 750rpx;
+  height: 150rpx;
+  padding: 20rpx 7% 0 7%;
+}
+
+.hdCon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoCon {
+  height: 130rpx;
+}
+
+.logoCon image {
+  height: 130rpx;
+}
+.logo-img{
+  height: 120rpx;
+  width: 120rpx;
+}
+.share-img{
+  height: 50rpx;
+  width: 50rpx;
+}
+
+.zhuafaCon {
+  height: 130rpx;
+}
+
+.imagebtn {
+  height: 150rpx;
+  text-align: center;
+  line-height: 38px;
+  background-color: transparent;
+  /*按钮透明*/
+  border: none;
+  /*设置按钮边框*/
+}
+
+/* .imagebtn image {
+  height: 150rpx;
+} */
+
+.contain {
+  height: 900rpx;
+  /* padding: 0  20rpx; */
+}
+.assessText{
+  height: 700rpx;
+  width: 86%;
+  line-height: 50rpx;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 2rpx;
+  text-align: justify;
+  margin: 20rpx auto;
+  padding: 0 35rpx;
+  border-radius:8px;
+  background:url(https://www.lzb1223.club:443/1.png);
+
+}
+
+text{
+  font-size:34rpx;     
+  color:white;           /*设置文字颜色*/
+  font-weight: bold;    /*设置字体加粗*/
+  font-family:"KaiTi";   /*设置字体为宋体*/
+  }
+
+.btnContain{
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30rpx 7%;
+  /* margin:50rpx 100rpx; */
+}
+
+.btn{
+  /* margin:0rpx 30rpx; */
+  /* width: 300rpx !important; */
+  border-radius: 30rpx;
+  background-image: linear-gradient(45deg, #f43f3b, #ec008c);
+  /*按钮透明*/
+  border: none;
+  color: white;
+}
